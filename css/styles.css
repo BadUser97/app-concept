@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 1.5s;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem;
+}
+a{
+    outline: none;
+    
+}
+i{
+    transition: 0.4s;
+}
+
+i:hover{
+    transform: scale(1.43);
+    color: rgb(0, 0, 0);
+}
+
+H1{
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: transparent;
+    color: whitesmoke;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: auto;
+    
+}
+
+.form{
+    width: 90%;
+
+}
+
+label{
+    
+    display: block;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 0;
+    color: whitesmoke;
+
+}
+
+input{
+    
+    display: block;
+    text-align: left;
+    width: 100%;
+    height: 2.9rem;
+    margin: .6rem 0;
+    border-radius: .5rem;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+button{
+    width: 100%;
+    height: 2.9rem;
+    border-radius: .5rem;
+    margin: 1.3rem 0;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    outline: none;
+    transition: 0.4s;
+
+    
+    
+}
+.texto1{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.login-redes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.login-facebook{
+    
+    width: 42%;
+    background-color: #3b5998;
+    color: whitesmoke;
+    outline: none;
+    border-radius: .8rem;
+    margin-right: .8rem;
+    
+    
+    
+}
+.login-google{
+    width: 42%;
+    background-color: #46D0FE;
+    color: whitesmoke;
+    outline: none;
+    border-radius: .8rem;
+}
+
+button:hover{
+    transform: scale(1.03);
+    
+}
+
+.login-facebook:hover{
+    transform: scale(1.1);
+}
+.login-google:hover{
+    transform: scale(1.1);
+}
+
+/**Search Bar Design**/
+
+.search-box{
+    width: 75%;
+    margin-right: 1rem;
+}
+
+/**Gallery Navigate Design**/
+
+
+.imagen{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.galeria{
+    width: 100%;
+    margin: auto 10px;
+    
+
+}
+
+.text-img{
+    margin-top: 0;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px;
+    
+}
+
+/**Profile Section Design**/
+
+.profile-img{
+    border: rgba(207, 207, 207, 0.37) .5rem solid;
+    margin: 3rem;
+    width: 12rem; height: 12rem;
+    border-radius: 60%;
+
+}
+
+.container-content{
+    margin-top: -2rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+    color: whitesmoke;
+    
+
+}
+
+.subtitle{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: .9rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.content{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: .9rem;
+    margin: 1rem;
+    padding: 2px 6px;
+    color: rgb(255, 255, 255);
+
+    
+
+}
+
+.contact-btn{
+    width: 50%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: whitesmoke;
+    background-color: #551A8B;
+}
+
+/**Social Media Buttons**/
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+}
